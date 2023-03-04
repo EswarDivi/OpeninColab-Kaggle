@@ -41,7 +41,7 @@ function App() {
 
         <br />
 
-        <p>Enter the link to your notebook on GitHub</p>
+        <p>Enter the link to your Jupyter notebook on github</p>
 
         <br />
         <div className="AppMain">
