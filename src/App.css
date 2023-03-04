@@ -1,31 +1,31 @@
+/* center Appmain div */
+
+/* center h1 */
+.App h1 {
+  text-align: center;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.AppMain {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  flex-direction: column;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-.heart {
-  color: #ff0000;
-}
-
-.small {
-  font-size: 0.75rem;
+/* add futurstic design to input */
+.AppMain input {
+  background-color: #1e1e1e;
+  border: 1px solid #1e1e1e;
+  border-radius: 5px;
+  color: white;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  width: 90%;
 }
