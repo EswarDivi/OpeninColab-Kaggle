@@ -1,5 +1,7 @@
 import "./App.css";
+import { inject } from '@vercel/analytics';
 
+inject();
 function openInColab() {
   // get the notebook link from the input box
   const notebookLink = document.getElementById("notebookLink").value;
